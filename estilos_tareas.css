@@ -6,12 +6,13 @@ background-color: white;
     display: inline-block;
     text-align: center;
     border: 1px solid black;
+    height: 60px;
     
 
 }
 body{
     background-attachment: fixed;
-    background-color:rgba(247, 245, 245, 0.9);
+    background-color:rgba(204, 199, 199, 0.9);
 }
 
 .estudiante {
@@ -57,13 +58,30 @@ footer a{
     margin: 10px;
     border: 1px solid black;
     padding: 40px;
+    display: flex;
 }
 
 .cabeza{
-    margin: 10px 350px;
-}
-.princ{
-    font-size: 50px;
+    margin: 10px 300px;
+    display: flex;
+    left: 60px;
+    font-size: 20px;
     margin: 20px 90px;
     text-align: center ;
+    justify-content: center;
+    align-self: center;
+}
+.cabeza header{
+    display: inline;
+}
+
+.Tareas .button_tarea{
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.Tareas input{
+    margin: 20px;
 }
