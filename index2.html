@@ -28,15 +28,22 @@
 
         <div class="Tareas">
             <h1>Listado de tareas</h1>
-            <ol class="Lista_tareas">
-                <input type="text">
-                <li>Conceptos <button class="button_tarea">Ver</button></li>
-                <li>examen teorico<button class="button_tarea">Ver</button></li>
-                <li>Reporte de investigacion<button class="button_tarea">Ver</button></li>
-                <li>Ensayo<button class="button_tarea">Ver</button></li>
+            <ul class="Lista-Tareas"
+            id="tareas-por-hacer">
 
-            </ol>
+                <input class="input-nombre-tarea" id="input-nombre-tarea" placeholder="Nombre de la Tarea"/>
+                <input class="input-fecha-tarea" id="input-fecha-tarea" placeholder="Nombre de la Tarea" type="date"/>
+
+                <button id="boton-agregar-01" class="boton-agregar">Agregar tarea</button>
+            </ul>
         </div>
+
+        <div class="tareas_terminadas">
+            <h1>Tareas terminadas</h1>
+            <ul id="tareas_terminadas"></ul>
+
+        </div>
+
         <footer >
             <div>
                 <h1>Informacion del autor</h1>
@@ -44,13 +51,14 @@
                 <hr color="black"/>  
                 <h2>contacto</h2>
                 <ul>
-                    <li>Tel. 614 202 1733</li>
+                    <li>Tel. 614 202 1733.</li>
                     <li>
-                        <a href="mailto:alonso.19.2005@gmail.com" title="correo personal" >Correo. alonso.19.2005@gmail.com</a>
+                        <a href="mailto:alonso.19.2005@gmail.com" title="correo personal" >Correo. alonso.19.2005@gmail.com.</a>
                     </li>
                 </ul>
             </div>
         </footer>
+        <script src="main.js"></script>
     </body>
 
     

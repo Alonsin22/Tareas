@@ -80,8 +80,18 @@ footer a{
     text-align: center;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 .Tareas input{
     margin: 20px;
+    
+}
+
+.tareas_terminadas{
+    background-color: white;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 40px;
+    display: flex;
 }
